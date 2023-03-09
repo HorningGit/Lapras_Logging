@@ -15,7 +15,7 @@ Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you c
 
 3. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
 
-4. Run the following commands to configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
+4. Run the following commands to configure your Git username and email using the following commands, replacing my name with your own. These details will be associated with any commits that you create:
 
 ```powershell
 git config --global user.name "Alexander Horning"
