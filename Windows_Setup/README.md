@@ -1,4 +1,4 @@
-### Visual Studio Code
+### Step 1: Visual Studio Code
 ##### Installation
 1. Download the Visual Studio Code installer for Windows.
 2. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
@@ -7,7 +7,7 @@
 
 Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you can type 'code .' to open VS Code on that folder. You will need to restart your console after the installation for the change to the %PATH% environmental variable to take effect.
 
-### Git for Windows
+### Step 2: Git for Windows
 ##### Installation
 1. Download the latest [Git for Windows installer](https://gitforwindows.org/).
 
@@ -23,7 +23,7 @@ git config --global user.email "firstname.lastname@gmail.com"
 ```
 
 
-### Chocolatey Package Manager for Windows
+### Step 3: Chocolatey Package Manager for Windows
 ##### Installation
 When installing the software via PowerShell, we must ensure the local Get-ExecutionPolicy is not set to restricted. Chocolately suggests using Bypass to bypass the policy to get things installed or AllSigned for increased security.
 
@@ -37,7 +37,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 4. If there are no errors, Chocolatey will be installed. We can verify the installation using the **choco** or **choco -?** command.
 
-### GitHub CLI for Windows
+### Step 4: GitHub CLI for Windows
 ##### Installation
 This installation requires the package manager Chocolatey. Please refer to previous steps!
 1. Run The following chocolatey command.
