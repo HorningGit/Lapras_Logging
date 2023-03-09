@@ -25,3 +25,13 @@ git config --global user.email "firstname.lastname@gmail.com"
 
 ### Chocolatey Package Manager for Windows
 ##### Installation
+When installing the software via PowerShell, we must ensure the local Get-ExecutionPolicy is not set to restricted. Chocolately suggests using Bypass to bypass the policy to get things installed or AllSigned for increased security.
+
+1. First, we need to run the Get-ExecutionPolicy. If it returns Restricted, then we need to run one of the two commands below.
+```powershell
+Set-ExecutionPolicy AllSigned
+```
+OR
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process
+```
