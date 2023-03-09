@@ -44,3 +44,7 @@ This installation requires the package manager Chocolatey. Please refer to previ
 ```powershell
 choco install gh
 ```
+2. Authenticate with GitHub CLI
+```powershell
+gh auth login
+```
