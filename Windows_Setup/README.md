@@ -15,11 +15,11 @@ Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you c
 
 3. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
 
-Run the following commands to configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
+4. Run the following commands to configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
 
 ```powershell
-git config --global user.name "Emma Paris"
-git config --global user.email "eparis@atlassian.com"
+git config --global user.name "Alexander Horning"
+git config --global user.email "firstname.lastname@gmail.com"
 ```
 
 Bitbucket supports pushing and pulling over HTTP to your remote Git repositories on Bitbucket. Every time you interact with the remote repository, you must supply a username/password combination. You can store these credentials, instead of supplying the combination every time, with the Git Credential Manager for Windows.
