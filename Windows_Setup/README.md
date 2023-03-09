@@ -31,10 +31,6 @@ When installing the software via PowerShell, we must ensure the local Get-Execut
 ```powershell
 Set-ExecutionPolicy AllSigned
 ```
-OR
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process
-```
 2. Now run the following command in the Windows shell.
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
