@@ -36,3 +36,11 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 4. If there are no errors, Chocolatey will be installed. We can verify the installation using the **choco** or **choco -?** command.
+
+### GitHub CLI for Windows
+##### Installation
+This installation requires the package manager Chocolatey. Please refer to previous steps!
+1. Run The following chocolatey command.
+```powershell
+choco install gh
+```
