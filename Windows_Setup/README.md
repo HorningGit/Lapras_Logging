@@ -21,3 +21,7 @@ Tip: Setup will add Visual Studio Code to your %PATH%, so from the console you c
 git config --global user.name "Alexander Horning"
 git config --global user.email "firstname.lastname@gmail.com"
 ```
+
+
+### Chocolatey Package Manager for Windows
+##### Installation
