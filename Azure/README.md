@@ -5,3 +5,8 @@
 2. Git
 3. Azure CLI
 4. Visual Studio Code (IDE)
+
+#### Chocolatey (Package Manager for Windows)
+1. Pass administrative script from Chocolately to PowerShell
+2. Close & Reopen
+
