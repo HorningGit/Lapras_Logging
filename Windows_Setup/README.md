@@ -1,3 +1,5 @@
+# :comet: Windows Setup :comet:
+
 ### Step 1: Visual Studio Code
 ##### Installation
 1. Download the [Visual Studio Code installer for Windows](https://visualstudio.microsoft.com/downloads/).
