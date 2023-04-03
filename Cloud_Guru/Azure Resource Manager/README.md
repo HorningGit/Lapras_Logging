@@ -10,3 +10,5 @@
 **Resource Provider**: A category of a resource that is available in a subscription.
 
 **Resource Type**: The specific type of resource within the resource provider category.
+
+{resource-provider}/{resource-type}
