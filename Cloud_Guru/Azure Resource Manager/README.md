@@ -7,6 +7,6 @@
 - [ ] Chapter 6 (Conclussion)
 
 #### Chapter 2
-Resource Provider: A category of a resource that is available in a subscription.
+**Resource Provider**: A category of a resource that is available in a subscription.
 
-Resource Type: The specific type of resource within the resource provider category.
+**Resource Type**: The specific type of resource within the resource provider category.
