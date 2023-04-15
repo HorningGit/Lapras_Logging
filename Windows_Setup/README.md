@@ -1,5 +1,15 @@
 # :comet: Windows Setup :comet:
 
+### Chocolately Packages
+- Git
+- Azure CLI
+- Slack
+- VScode
+- Spotify
+- Runelite
+
+
+
 ### Step 1: Visual Studio Code
 ##### Installation
 1. Download the [Visual Studio Code installer for Windows](https://visualstudio.microsoft.com/downloads/).
