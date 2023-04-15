@@ -7,8 +7,7 @@
 - VScode
 - Spotify
 - Runelite
-
-
+- GitHub CLI
 
 ### Step 1: Visual Studio Code
 ##### Installation
